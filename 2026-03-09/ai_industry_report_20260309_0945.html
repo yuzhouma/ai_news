@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI前沿资讯 - 2026年3月9日</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+      background: linear-gradient(180deg, #f3f7fb 0%, #eef2f7 100%);
+      color: #1f2937;
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 20px 14px 40px;
+    }
+    .hero {
+      background: radial-gradient(circle at top left, #dbeafe, #ffffff 55%), linear-gradient(135deg, #ffffff, #f8fafc);
+      border: 1px solid #dbe4ee;
+      border-radius: 24px;
+      padding: 28px 22px;
+      box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+      margin-bottom: 24px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #0f172a;
+      color: #fff;
+      font-size: 12px;
+      letter-spacing: .08em;
+    }
+    h1 {
+      margin: 14px 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      color: #0f172a;
+    }
+    .sub {
+      color: #1e293b;
+      font-size: 17px;
+      font-weight: 500;
+      max-width: 860px;
+      line-height: 1.75;
+    }
+    .meta {
+      margin-top: 16px;
+      color: #64748b;
+      font-size: 13px;
+    }
+    .section {
+      margin-top: 32px;
+    }
+    .section-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 0 0 6px;
+      color: #0f172a;
+    }
+    .section-divider {
+      width: 100%;
+      height: 2px;
+      background: #333;
+      margin-bottom: 18px;
+    }
+    .sub-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: #2c3e50;
+      margin: 22px 0 12px;
+    }
+    .sub-title:first-of-type {
+      margin-top: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: rgba(255,255,255,0.92);
+      border: 1px solid #dbe4ee;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+    }
+    .cover {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      background: #e5e7eb;
+    }
+    .body {
+      padding: 16px;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      color: #0c4a6e;
+      background: #e0f2fe;
+      border-radius: 999px;
+      padding: 5px 10px;
+      margin-bottom: 10px;
+    }
+    .tag.hot { color: #991b1b; background: #fee2e2; }
+    .tag.policy { color: #065f46; background: #d1fae5; }
+    .tag.tech { color: #5b21b6; background: #ede9fe; }
+    .tag.bio { color: #92400e; background: #fef3c7; }
+    .title {
+      font-size: 17px;
+      line-height: 1.4;
+      margin: 0 0 8px;
+      color: #111827;
+      font-weight: 700;
+    }
+    .source {
+      color: #64748b;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+    .desc {
+      font-size: 14px;
+      color: #374151;
+      margin: 0 0 14px;
+    }
+    .link {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .link:hover { text-decoration: underline; }
+    .oss-box {
+      margin-top: 18px;
+      background: #fff;
+      border: 1px dashed #cbd5e1;
+      border-radius: 18px;
+      padding: 16px;
+      color: #374151;
+      font-size: 14px;
+    }
+    .oss-box strong {
+      color: #0f172a;
+    }
+    .oss-box a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .oss-box a:hover { text-decoration: underline; }
+    .oss-box p {
+      margin: 6px 0;
+    }
+    @media (max-width: 640px) {
+      h1 { font-size: 24px; }
+      .hero { padding: 22px 16px; }
+      .wrap { padding: 15px 10px 30px; }
+      .cover { height: 160px; }
+      .body { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ========== Hero ========== -->
+    <section class="hero">
+      <span class="eyebrow">AI DAILY</span>
+      <h1>AI前沿资讯</h1>
+      <p class="sub">全民"养龙虾"，Agent时代正式到来。深圳龙岗抢发"龙虾十条"，腾讯字节下场摆摊帮部署；Karpathy 630行代码开源AI自动研究员；AI制药第一股4亿美元IPO首日即崩盘；小米人形机器人走进汽车产线。</p>
+      <div class="meta">日期：2026年3月9日 &middot; 覆盖：2026年3月2日 - 3月9日重点AI资讯</div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- 一、前沿AI应用探索                                                  -->
+    <!-- ================================================================ -->
+    <section class="section">
+      <h2 class="section-title">一、前沿AI应用探索</h2>
+      <div class="section-divider"></div>
+
+      <!-- ---- 智能制造 ---- -->
+      <h3 class="sub-title">智能制造</h3>
+      <div class="grid">
+        <article class="card">
+          <img class="cover" src="https://images.caiwennews.com/images/news/20260302_0e21bb49ab854246b3f5b02bd5f2e401.png" alt="小米人形机器人" />
+          <div class="body">
+            <span class="tag">智能制造</span>
+            <h3 class="title">小米人形机器人进入汽车工厂实习，完成自攻螺母上件等自主作业</h3>
+            <div class="source">来源：手机新浪网 &middot; 2026年03月02日</div>
+            <p class="desc">小米人形机器人已进入自家汽车工厂产线进行实习测试，能够完成自攻螺母上件等实际装配操作。这是国产人形机器人从实验室走向真实产线的标志性事件，对智能制造的落地具有示范意义。</p>
+            <a class="link" href="https://www.sina.cn/news/detail/5272022213200427.html" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://imagegroup1.haier.com/haier-ecosystem/cosmoplat/news/W020220523541500265383.png" alt="卡奥斯工业互联网" />
+          <div class="body">
+            <span class="tag">智能制造</span>
+            <h3 class="title">十五五开局之年，卡奥斯打造工业AI生态基座</h3>
+            <div class="source">来源：驱动之家 &middot; 2026年03月04日</div>
+            <p class="desc">2026年是"十五五"开局之年，国家相继发布"人工智能+制造"、工业互联网和AI融合等系列政策。卡奥斯作为海尔旗下工业互联网平台，正在打造工业AI生态基座，推动制造业智能化转型。</p>
+            <a class="link" href="https://news.mydrivers.com/1/1106/1106980.htm" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="http://mma.prnasia.com/media2/2923631/image.jpg?p=medium600" alt="华为智慧工厂" />
+          <div class="body">
+            <span class="tag">智能制造</span>
+            <h3 class="title">华为发布《工业网络全连接报告》，推动智慧工厂架构升级</h3>
+            <div class="source">来源：PRNAsia &middot; 2026年03月03日</div>
+            <p class="desc">MWC 2026期间，华为举办"智慧工厂全新升级"论坛并发布工业网络全连接报告。AI与工业互联网正从概念走向架构级落地，关键不是单一模型，而是网络、设备、边缘算力和流程系统的联动。</p>
+            <a class="link" href="https://www.prnasia.com/story/523682-1.shtml" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- ---- AI营销 ---- -->
+      <h3 class="sub-title">AI营销</h3>
+      <div class="grid">
+        <article class="card">
+          <img class="cover" src="https://media.nfnews.com/nfplus/ossfs/pic/xy/202602/27/9f621711-511e-4b1f-8505-6afb122088f7.png" alt="钛动科技" />
+          <div class="body">
+            <span class="tag">AI营销</span>
+            <h3 class="title">钛动科技赴港IPO：年营收破亿美金，冲刺"出海AI引擎第一股"</h3>
+            <div class="source">来源：36Kr &middot; 2026年03月03日</div>
+            <p class="desc">广州AI营销Agent企业钛动科技向港交所递交IPO申请。凭借"钛极"多模态大模型与全球首批营销多智能体"Navos"，钛动科技保持出海营销赛道领先地位。AI营销赛道资本化进程加速。</p>
+            <a class="link" href="https://m.36kr.com/p/3707404321698185" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2026/03/How-Autonomous-Agents-Work-1.webp" alt="AI数字员工" />
+          <div class="body">
+            <span class="tag">AI营销</span>
+            <h3 class="title">清蓝AI完成数千万元天使轮融资，发布AI口碑营销数字员工平台</h3>
+            <div class="source">来源：36Kr &middot; 2026年03月02日</div>
+            <p class="desc">清蓝AI同步发布新产品AI营销数字员工平台mkter.ai及AI口碑营销数字员工"Mark"。AI正在从工具层面升级为"数字员工"，直接替代重复性的营销运营工作，降本增效路径更加清晰。</p>
+            <a class="link" href="https://m.36kr.com/p/3705907852800136" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://adtechtoday.com/wp-content/uploads/2026/03/criteo-joins-openai-advertising-pilot-in-chatgpt.png" alt="Criteo ChatGPT广告" />
+          <div class="body">
+            <span class="tag">AI营销</span>
+            <h3 class="title">Criteo成为ChatGPT广告试点首个广告技术合作伙伴</h3>
+            <div class="source">来源：MarketingProfs &middot; 2026年03月06日</div>
+            <p class="desc">Criteo成为OpenAI ChatGPT广告试点计划的首个广告技术合作伙伴。这意味着AI对话界面正在成为新的广告投放渠道，"在AI回答中插入广告"可能重塑数字营销的流量逻辑和商业模式。</p>
+            <a class="link" href="https://www.marketingprofs.com/opinions/2026/54379/ai-update-march-6-2026-ai-news-and-views-from-the-past-week" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- ---- 蛋白质与生物制造 ---- -->
+      <h3 class="sub-title">蛋白质与生物制造</h3>
+      <div class="grid">
+        <article class="card">
+          <img class="cover" src="https://oncodaily.com/pub/uploads/2026/02/Biotech-1-2.webp" alt="Generate Biomedicines" />
+          <div class="body">
+            <span class="tag bio">生物制造</span>
+            <h3 class="title">"AI制药第一股"Generate Biomedicines上市首日暴跌20%，4亿美元IPO创行业纪录</h3>
+            <div class="source">来源：搜狐网 &middot; 2026年03月02日</div>
+            <p class="desc">AI驱动型生物技术公司Generate Biomedicines完成行业史上最大规模IPO，募资4亿美元登陆纳斯达克，但上市首日暴跌20%。这既说明资本市场对AI制药的高度关注，也反映出商业化落地仍存不确定性。</p>
+            <a class="link" href="https://m.sohu.com/a/991549126_617205" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://s.yimg.com/os/en/prnewswire.com/8938dc1fa172a5f117fabf7ffb1a5aec" alt="Liquid AI Insilico" />
+          <div class="body">
+            <span class="tag bio">生物制造</span>
+            <h3 class="title">Liquid AI与Insilico Medicine战略合作：轻量级科学基础模型用于药物发现</h3>
+            <div class="source">来源：EurekAlert &middot; 2026年03月03日</div>
+            <p class="desc">单个26亿参数模型在药物发现基准测试中达到SOTA性能，且可完全运行在私有制药基础设施上。这打破了"AI制药必须依赖超大模型"的认知，轻量级模型在垂直场景同样有效。</p>
+            <a class="link" href="https://www.eurekalert.org/news-releases/1118535" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://scx2.b-cdn.net/gfx/news/hires/2023/gist-researchers-devel.jpg" alt="蛋白质语言模型" />
+          <div class="body">
+            <span class="tag bio">生物制造</span>
+            <h3 class="title">深圳先进院开发蛋白质语言模型，解锁远源抗菌肽设计</h3>
+            <div class="source">来源：ByDrug &middot; 2026年03月07日</div>
+            <p class="desc">中国科学院深圳先进技术研究院开发蛋白质语言模型，用于设计远源抗菌肽。在全球耐药危机加剧的背景下，AI驱动的蛋白质设计正在成为应对抗生素耐药性的重要新方向。论文发表在Nature Biomedical Engineering。</p>
+            <a class="link" href="https://bydrug.pharmcube.com/news/detail/e37efde7b961776f141967f97b4e7736" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- 相关开源技术 -->
+      <div class="oss-box">
+        <strong>相关开源技术</strong>
+        <p>&bull; ESM (Evolutionary Scale Modeling) - Meta蛋白质语言模型 <a href="https://github.com/facebookresearch/esm" target="_blank">GitHub</a></p>
+        <p>&bull; AlphaFold - DeepMind蛋白质结构预测 <a href="https://github.com/google-deepmind/alphafold" target="_blank">GitHub</a></p>
+        <p>&bull; Open-MMLAB - 工业视觉开源工具箱 <a href="https://github.com/open-mmlab" target="_blank">GitHub</a></p>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- 二、AI大模型与Agent技术                                             -->
+    <!-- ================================================================ -->
+    <section class="section">
+      <h2 class="section-title">二、AI大模型与Agent技术</h2>
+      <div class="section-divider"></div>
+
+      <!-- ---- AI大模型 ---- -->
+      <h3 class="sub-title">AI大模型</h3>
+      <div class="grid">
+        <article class="card">
+          <img class="cover" src="https://cs.nju.edu.cn/zhouzh/zhouzh.files/zhouzh-nju-260302.jpg" alt="周志华院士" />
+          <div class="body">
+            <span class="tag policy">两会</span>
+            <h3 class="title">周志华院士：建议纠正盲目跟风大模型解决一切的误区</h3>
+            <div class="source">来源：新浪财经 &middot; 2026年03月08日</div>
+            <p class="desc">全国政协委员、南京大学副校长、中国科学院院士周志华在两会发言中提出，要以人工智能赋能新质生产力发展，但必须纠正"大模型能解决一切"的盲目跟风现象。不同场景需要不同的技术路线，这个判断对行业决策者很关键。</p>
+            <a class="link" href="https://finance.sina.cn/tech/2026-03-08/detail-inhqhuhc7430920.d.html" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://diplo-media.s3.eu-central-1.amazonaws.com/2026/03/deepseek-v4-multimodal-ai-model-1024x576.jpg" alt="DeepSeek V4" />
+          <div class="body">
+            <span class="tag">大模型</span>
+            <h3 class="title">DeepSeek V4要来？概念股集体拉升，10余家公司率先布局</h3>
+            <div class="source">来源：新浪财经 &middot; 2026年03月09日</div>
+            <p class="desc">万得DeepSeek概念指数尾盘拉升收涨1.87%，拓维信息涨停。市场传闻DeepSeek V4即将发布，叠加OpenClaw带动的Agent热潮，资本市场正在把"Agent + 国产大模型"视为下一个主线叙事。</p>
+            <a class="link" href="https://finance.sina.cn/2026-03-09/detail-inhqivtr6954920.d.html" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://imgcdn.yicai.com/uppics/images/2026/03/253ce17bb2503942dff0f3b2a6780910.jpg" alt="高质量数据集" />
+          <div class="body">
+            <span class="tag policy">政策</span>
+            <h3 class="title">政府工作报告首次点名"高质量数据集"，数据治理上升为国家战略</h3>
+            <div class="source">来源：第一财经 &middot; 2026年03月07日</div>
+            <p class="desc">2026年政府工作报告深化"人工智能+"战略，首次点名"高质量数据集"。数据治理正从辅助议题上升为国家级战略，这对数据平台、标注服务和行业数据资产化方向是明确利好信号。</p>
+            <a class="link" href="https://finance.sina.cn/stock/jdts/2026-03-07/detail-inhqekze1609859.d.html" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- ---- Agent技术 ---- -->
+      <h3 class="sub-title">Agent技术</h3>
+      <div class="grid">
+        <article class="card">
+          <img class="cover" src="https://www.superseed.com/wp-content/uploads/2026/01/openclaw.png" alt="OpenClaw" />
+          <div class="body">
+            <span class="tag hot">现象级</span>
+            <h3 class="title">OpenClaw"养龙虾"爆火：从技术圈火到两会，深圳率先发布"龙虾十条"</h3>
+            <div class="source">来源：FX168财经 / 华尔街见闻 &middot; 2026年03月08日</div>
+            <p class="desc">开源AI智能体OpenClaw火爆出圈，能写周报、订餐厅、处理表格，24小时不间断工作。深圳龙岗区发布"龙虾十条"政策，免费部署、送算力、最高千万股权投资。腾讯字节下场摆摊帮用户部署，标志着AI正式从"对话模式"进入"Agent时代"。</p>
+            <a class="link" href="https://www.fx168news.com/article/1001183" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://tii.imgix.net/production/articles/12276/2570f1dd-11b7-45c0-8080-adeb7ea1d76c.jpeg?fm=jpg&auto=compress&w=1200" alt="Karpathy" />
+          <div class="body">
+            <span class="tag tech">开源</span>
+            <h3 class="title">Karpathy开源autoresearch：630行代码让AI智能体通宵跑100次实验</h3>
+            <div class="source">来源：新浪财经 &middot; 2026年03月08日</div>
+            <p class="desc">Andrej Karpathy开源新项目autoresearch，上线数小时X浏览量破百万、GitHub获超2500 Stars。核心代码约630行Python，让AI智能体在人睡觉时自动跑实验。Agent的价值不在聊天，在于"替你干活"。</p>
+            <a class="link" href="https://finance.sina.com.cn/tech/roll/2026-03-08/doc-inhqfxat0959120.shtml" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="cover" src="https://theaitrack.com/wp-content/uploads/2026/03/Google-Workspace-CLI-Enables-OpenClaw-and-Other-AI-Agents-Credit-Google-The-AI-Track.jpg" alt="Google Workspace CLI" />
+          <div class="body">
+            <span class="tag tech">开源</span>
+            <h3 class="title">谷歌开源Workspace CLI狂揽15k Stars，Agent开始接管办公生态</h3>
+            <div class="source">来源：51CTO &middot; 2026年03月09日</div>
+            <p class="desc">Google Workspace CLI将Drive、Gmail、Calendar等云API统一封装为命令行工具，为AI智能体自动化工作流提供标准化接口。一键接入OpenClaw，让Agent具备操作企业办公套件的能力，是Agent基础设施的重要一步。</p>
+            <a class="link" href="https://www.51cto.com/article/837598.html" target="_blank">查看原文 &rarr;</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- 相关开源技术 -->
+      <div class="oss-box">
+        <strong>相关开源技术</strong>
+        <p>&bull; OpenClaw - 开源AI智能体，"养龙虾"本体 <a href="https://github.com/openclaw-ai/openclaw" target="_blank">GitHub</a></p>
+        <p>&bull; autoresearch - Karpathy的自动化AI研究项目 <a href="https://github.com/karpathy/autoresearch" target="_blank">GitHub</a></p>
+        <p>&bull; Google Workspace CLI - 谷歌办公套件命令行工具 <a href="https://github.com/nichochar/gws-cli" target="_blank">GitHub</a></p>
+        <p>&bull; DeepSeek - 国产开源大模型 <a href="https://github.com/deepseek-ai" target="_blank">GitHub</a> | <a href="https://huggingface.co/deepseek-ai" target="_blank">HuggingFace</a></p>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
