@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI行业动态周报 - 2026年06月02日</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .report-date {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #333;
+            padding-bottom: 8px;
+            margin-bottom: 25px;
+            font-size: 22px;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .card-header {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .card-title {
+            color: #2c3e50;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .news-item {
+            margin-bottom: 18px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .news-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .news-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+
+        .news-title a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        .news-title a:hover {
+            color: #3498db;
+        }
+
+        .news-meta {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-bottom: 8px;
+        }
+
+        .news-snippet {
+            font-size: 13px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .tech-links {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+
+        .tech-links-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .tech-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tech-links li {
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 5px;
+            line-height: 1.5;
+        }
+
+        .tech-links a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .tech-links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 5px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .section-title {
+                font-size: 20px;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .news-image {
+                height: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI行业动态周报</h1>
+        <div class="report-date">2026年06月02日</div>
+
+        <div class="section">
+            <h2 class="section-title">一、前沿AI应用探索</h2>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">智能制造</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="news-item">
+                            <img src="images/card-01.jpg" alt="NVIDIA Factory Operations" class="news-image">
+                            <div class="news-title">
+                                <a href="https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/" target="_blank">NVIDIA Factory Operations Blueprint为工厂提供全新AI大脑</a>
+                            </div>
+                            <div class="news-meta">NVIDIA Blog | 2026年06月01日</div>
+                            <div class="news-snippet">随着工厂从孤立自动化转向全厂智能，制造商需要能够连接实时机器信号、质量系统的AI系统。NVIDIA推出工厂运营蓝图，为智能制造提供统一的AI架构。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-02.jpg" alt="Samsung Smart Factory" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.koreatimes.co.kr/amp/business/companies/20260601/samsung-supports-smes-with-smart-factory-solutions" target="_blank">三星通过智能工厂解决方案支持韩国中小企业</a>
+                            </div>
+                            <div class="news-meta">The Korea Times | 2026年06月01日</div>
+                            <div class="news-snippet">三星电子通过智能工厂计划赋能韩国各地的中小企业，分享其制造专业知识和AI驱动的生产优化技术，帮助提升整体产业竞争力。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-03.jpg" alt="AI Manufacturing Skills" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.azonano.com/news.aspx?newsID=41717" target="_blank">AI与纳米技术如何填补美国制造业技能差距</a>
+                            </div>
+                            <div class="news-meta">AZoNano | 2026年05月29日</div>
+                            <div class="news-snippet">随着半导体、传感器和智能工厂行业面临日益扩大的技能差距，新的课程框架展示了AI和纳米技术如何培养下一代制造人才。</div>
+                        </div>
+
+                        <div class="tech-links">
+                            <div class="tech-links-title">相关开源技术</div>
+                            <ul>
+                                <li>• NVIDIA Isaac Sim - 机器人仿真平台 <a href="https://github.com/NVIDIA-Omniverse/IsaacGymEnvs" target="_blank">GitHub</a></li>
+                                <li>• OpenCV - 计算机视觉库用于质检 <a href="https://github.com/opencv/opencv" target="_blank">GitHub</a></li>
+                                <li>• TensorFlow Industrial - 工业AI框架 <a href="https://github.com/tensorflow/tensorflow" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">AI营销</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="news-item">
+                            <img src="images/card-04.jpg" alt="Agentic AI Marketing" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.taboola.com/marketing-hub/agentic-ai-in-marketing/" target="_blank">营销中的Agentic AI：第三代营销自动化</a>
+                            </div>
+                            <div class="news-meta">Taboola | 2026年06月01日</div>
+                            <div class="news-snippet">Realize+等第三代营销自动化平台正在通过Agentic AI改变效果广告格局，实现自主决策和持续优化的广告投放。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-05.jpg" alt="OuterSignal Monocle" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.citybiz.co/article/852364/outersignal-acquires-monocle-to-build-integrated-ai-personalization-platform/" target="_blank">OuterSignal收购Monocle构建集成AI个性化平台</a>
+                            </div>
+                            <div class="news-meta">citybiz | 2026年05月28日</div>
+                            <div class="news-snippet">OuterSignal收购AI生命周期营销初创公司Monocle，将客户智能与自主营销执行相结合，满足电商品牌对深度个性化的需求。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-06.jpg" alt="Google AI Max" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.mediapost.com/publications/article/414317/google-replacing-dynamic-search-ads-with-ai-max.html" target="_blank">Google用"AI Max"替代动态搜索广告</a>
+                            </div>
+                            <div class="news-meta">MediaPost | 2026年06月01日</div>
+                            <div class="news-snippet">Google宣布将动态搜索广告（DSA）、自动创建资产（ACA）和广泛匹配统一升级为AI Max，全面拥抱生成式AI驱动的广告创建。</div>
+                        </div>
+
+                        <div class="tech-links">
+                            <div class="tech-links-title">相关开源技术</div>
+                            <ul>
+                                <li>• LangChain - Agentic AI应用框架 <a href="https://github.com/langchain-ai/langchain" target="_blank">GitHub</a></li>
+                                <li>• AutoGPT - 自主AI代理 <a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank">GitHub</a></li>
+                                <li>• Metabase - 营销数据分析平台 <a href="https://github.com/metabase/metabase" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">蛋白质与生物制造</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="news-item">
+                            <img src="images/card-07.jpg" alt="ESMFold2" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.scientificamerican.com/article/new-protein-folding-ai-vastly-expands-on-alphafolds-efforts/" target="_blank">新蛋白质折叠AI在AlphaFold基础上大幅扩展</a>
+                            </div>
+                            <div class="news-meta">Scientific American | 2026年05月30日</div>
+                            <div class="news-snippet">ESMFold2生成的新开源图谱极大地扩展了已知的蛋白质宇宙，为药物发现和生物工程提供前所未有的资源。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-08.jpg" alt="Isomorphic Labs" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.biotecnika.org/2026/05/googles-isomorphic-labs-grabs-2-1-billion-for-ai-drug-discovery/" target="_blank">Google支持的Isomorphic Labs获21亿美元推进AI药物发现</a>
+                            </div>
+                            <div class="news-meta">BioTecNika | 2026年05月28日</div>
+                            <div class="news-snippet">Isomorphic Labs完成21亿美元B轮融资，将扩展其AI药物设计引擎并加速下一代药物发现，标志着AI制药进入资本密集阶段。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-09.jpg" alt="Biohub ESM" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.genengnews.com/topics/artificial-intelligence/biohub-releases-protein-biology-world-model-to-address-disease/" target="_blank">Biohub发布蛋白质生物学世界模型应对疾病</a>
+                            </div>
+                            <div class="news-meta">GEN | 2026年05月27日</div>
+                            <div class="news-snippet">ESM蛋白质语言模型系列的最新更新支持结合剂设计和蛋白质功能映射，为治疗性发现提供强大工具。</div>
+                        </div>
+
+                        <div class="tech-links">
+                            <div class="tech-links-title">相关开源技术</div>
+                            <ul>
+                                <li>• ESMFold - Meta蛋白质折叠模型 <a href="https://github.com/facebookresearch/esm" target="_blank">GitHub</a> | <a href="https://huggingface.co/facebook/esmfold_v1" target="_blank">HuggingFace</a></li>
+                                <li>• AlphaFold - DeepMind蛋白质结构预测 <a href="https://github.com/deepmind/alphafold" target="_blank">GitHub</a></li>
+                                <li>• RFdiffusion - 蛋白质设计扩散模型 <a href="https://github.com/RosettaCommons/RFdiffusion" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">二、AI大模型与Agent技术</h2>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">AI大模型</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="news-item">
+                            <img src="images/card-10.jpg" alt="Claude Opus 4.8" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.marktechpost.com/2026/05/28/anthropic-ships-claude-opus-4-8-alongside-dynamic-workflows-and-cheaper-fast-mode-with-workflows-capped-at-1000-subagents/" target="_blank">Anthropic发布Claude Opus 4.8及动态工作流</a>
+                            </div>
+                            <div class="news-meta">MarkTechPost | 2026年05月28日</div>
+                            <div class="news-snippet">Claude Opus 4.8在Claude Code中支持运行数百个并行子代理的动态工作流，外加更便宜的快速模式，工作流上限为1000个子代理。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-11.jpg" alt="NVIDIA Cosmos 3" class="news-image">
+                            <div class="news-title">
+                                <a href="https://yellow.com/news/nvidia-cosmos-3-open-physical-ai-model-launch" target="_blank">NVIDIA发布Cosmos 3开放物理AI模型</a>
+                            </div>
+                            <div class="news-meta">Yellow.com | 2026年06月01日</div>
+                            <div class="news-snippet">NVIDIA推出Cosmos 3，这是一个基于混合专家Transformer架构的开放世界基础模型，专注于物理AI和机器人应用。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-12.jpg" alt="Grok AI" class="news-image">
+                            <div class="news-title">
+                                <a href="https://www.techtimes.com/articles/317328/20260528/grok-ai-new-model-triples-parameter-count-targets-coding-lead-release-expected-mid-june.htm" target="_blank">Grok AI新模型参数量翻三倍，瞄准编码领先</a>
+                            </div>
+                            <div class="news-meta">Tech Times | 2026年05月28日</div>
+                            <div class="news-snippet">Elon Musk宣布Grok V9-Medium即将发布，参数量达1.5万亿，预计6月中旬推出，主攻代码生成能力。</div>
+                        </div>
+
+                        <div class="tech-links">
+                            <div class="tech-links-title">相关开源技术</div>
+                            <ul>
+                                <li>• Llama 3 - Meta开源大语言模型 <a href="https://github.com/meta-llama/llama3" target="_blank">GitHub</a> | <a href="https://huggingface.co/meta-llama/Meta-Llama-3-70B" target="_blank">HuggingFace</a></li>
+                                <li>• Mistral - 欧洲开源LLM <a href="https://github.com/mistralai/mistral-src" target="_blank">GitHub</a> | <a href="https://huggingface.co/mistralai" target="_blank">HuggingFace</a></li>
+                                <li>• vLLM - 高性能LLM推理引擎 <a href="https://github.com/vllm-project/vllm" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Agent技术</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="news-item">
+                            <img src="images/card-13.jpg" alt="Agentic AI Enterprise" class="news-image">
+                            <div class="news-title">
+                                <a href="https://futurumgroup.com/press-release/agentic-ai-the-leading-vendors-winning-the-enterprise-in-2026/" target="_blank">Agentic AI：2026年赢得企业市场的领先供应商</a>
+                            </div>
+                            <div class="news-meta">Futurum Group | 2026年06月01日</div>
+                            <div class="news-snippet">企业Agentic AI平台正在快速演变为运营控制平面，微软、Salesforce和ServiceNow引领市场转型。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-14.jpg" alt="CoreWeave Agentic AI" class="news-image">
+                            <div class="news-title">
+                                <a href="https://pulse2.com/coreweave-unified-agentic-ai-capabilities/" target="_blank">CoreWeave推出统一Agentic AI能力</a>
+                            </div>
+                            <div class="news-meta">Pulse 2.0 | 2026年05月28日</div>
+                            <div class="news-snippet">CoreWeave推出统一Agentic AI能力，帮助企业将AI代理直接部署到生产环境并实现持续自主改进。</div>
+                        </div>
+
+                        <div class="news-item">
+                            <img src="images/card-15.jpg" alt="AWS AgentCore" class="news-image">
+                            <div class="news-title">
+                                <a href="https://aws.amazon.com/blogs/machine-learning/technical-deep-dive-agentcore-payments-and-innovation-in-agentic-commerce/" target="_blank">AWS深度解析：AgentCore支付与Agentic商务创新</a>
+                            </div>
+                            <div class="news-meta">AWS | 2026年05月26日</div>
+                            <div class="news-snippet">随着数十亿生成式AI代理自主运作，代表人类做出决策并完成交易，AgentCore支付系统为Agentic商务提供基础设施。</div>
+                        </div>
+
+                        <div class="tech-links">
+                            <div class="tech-links-title">相关开源技术</div>
+                            <ul>
+                                <li>• CrewAI - 多代理编排框架 <a href="https://github.com/joaomdmoura/crewAI" target="_blank">GitHub</a></li>
+                                <li>• Semantic Kernel - 微软Agent SDK <a href="https://github.com/microsoft/semantic-kernel" target="_blank">GitHub</a></li>
+                                <li>• LlamaIndex - 数据增强Agent框架 <a href="https://github.com/run-llama/llama_index" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
